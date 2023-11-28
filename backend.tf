@@ -4,8 +4,8 @@ terraform {
 
     workspaces {
       name = "Dev"
-      name = "Prod"
-      name = "stage"
+     # name = "Prod"
+     # name = "stage"
     }
   }
 }
