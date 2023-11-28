@@ -1,9 +1,11 @@
 terraform {
   cloud {
-    organization = "REPLACE-WITH-ORG-NAME"
+    organization = "wilsonbetancurth"
 
     workspaces {
-      name = "REPLACE-WITH-WORKSPACE-NAME"
+      name = "Dev"
+      name = "Prod"
+      name = "stage"
     }
   }
 }
